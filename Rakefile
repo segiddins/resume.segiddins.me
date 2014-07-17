@@ -5,7 +5,7 @@ task :bootstrap do
 
   Dir.chdir 'resume' do
     puts 'Building resume'
-    `bundle install && bundle exec rake generate`
+    puts `bundle install && bundle exec rake generate`
   end
 
   puts "Installing gems"
