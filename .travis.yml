@@ -7,6 +7,7 @@ rvm:
 install:
 - git config --global user.email "github_bot@segiddins.me"
 - git config --global user.name "GiddinsBot"
+- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
 - rake bootstrap
 script:
 - git remote set-url origin "https://${GH_TOKEN}@github.com/segiddins/resume.segiddins.me.git"

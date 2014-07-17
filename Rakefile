@@ -3,12 +3,6 @@ task :bootstrap do
   puts "Updating submodules..."
   `git submodule update --init --recursive`
 
-  if ENV['CI']
-    `wget http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg \
-      && sudo /usr/sbin/installer -verbose -pkg MacTeX.pkg -target /`
-      fail 'Failed to install XeLaTeX' if $?
-  end
-
   Dir.chdir 'resume' do
     puts 'Building resume'
     `bundle install && bundle exec rake generate`
