@@ -1,0 +1,8 @@
+= wrap_layout :layout do
+    - if current_page.metadata[:page]['title']
+        header.article-header
+            h1.h2
+                h2.h2
+                    a href=current_page.path title=current_page.metadata[:page]['title'] = current_page.metadata[:page]['title']
+    section.entry-content.clearfix
+        == yield
