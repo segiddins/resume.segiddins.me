@@ -2,7 +2,6 @@ language: ruby
 branches:
   only:
   - master
-env: ALLOW_DIRTY=TRUE
 rvm:
 - 2.1.2
 install:
@@ -12,7 +11,7 @@ install:
 - rake bootstrap
 script:
 - git remote set-url origin "https://${GH_TOKEN}@github.com/segiddins/resume.segiddins.me.git"
-- bundle exec rake deploy
+- bundle exec ALLOW_DIRTY=true rake deploy
 env:
   global:
     secure: NHmJOiKgcPkZw/Y3V6p6pqA/2sb02GGLbI10ZgYWaaNs9MHEeYlNoN1KlJqtDgQGsiE2IHGMMTAXhDYzXYyRuc9LHgYsi9Rp4kr0qamLxQAmUZmjvcN/i7Va/DZkE0h9ISGzHTD1vf2/wXroQ0ZdUPtBaurGYH+h0YJm4MwVbGk=
