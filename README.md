@@ -1,0 +1,2 @@
+resume.segiddins.me
+===================
