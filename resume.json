@@ -2,17 +2,30 @@
   "contact": {
     "name": "Samuel E. Giddins",
     "address": {
-      "street": "14 Hamilton Road",
-      "city": "Scarsdale",
-      "state": "New York",
-      "zip": "10583"
+      "street": "1190 Mission Street #1717",
+      "city": "San Fransisco",
+      "state": "California",
+      "zip": "94103"
     },
     "phone": "(917) 887 - 3993",
     "website": "segiddins.me",
     "email": "segiddins@segiddins.me"
   },
-  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (triple major in Economics, Computer Science, and Mathematics). National Merit Scholar. Inducted into Signifer, the Scarsdale, NY Senior High School academic honor society, and Tri-M, national music honor society. Developer with significant Ruby/Rails and Objective-C/Cocoa/Cocoa Touch experience. Code used on several million devices daily, and by hundreds of thousands of developers.",
+  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (triple major in Computer Science, Economics, and Mathematics). National Merit Scholar. Developer with significant Ruby/Rails and Objective-C/Cocoa/Cocoa Touch experience. Expert in creating world-class experiences for users and developers. Code used on several million devices daily, and by hundreds of thousands of developers.",
   "work": [
+    {
+      "name": "CocoaPods (Stripe's Open Source Retreat)",
+      "website": "cocoapods.org",
+      "location": "San Fransisco, CA",
+      "position": "Resolver Chief",
+      "start": "September 2014",
+      "end": "December 2014",
+      "accomplishments": [
+        "Wrote a reference-implementation dependency resolution algorithm",
+        "Constructed a reference test suite",
+        "Integrated work into CocoaPods for use by hundreds of thousands of developers"
+      ]
+    },
     {
       "name": "Tumblr",
       "website": "tumblr.com/apps",
@@ -21,10 +34,12 @@
       "start": "June 2014",
       "end": "September 2014",
       "accomplishments": [
-        "Worked with a small team to build a top-tier iOS app",
-        "Navigated a large and complex codebase, refactoring everything in my path",
-        "Built several user-facing features, from planning to design to execution and testing",
-        "Collaborated closely with the Creative team to ensure a top-notch user experience"
+        "Rewrote critical application components to enable bug fixes and crucial feature development",
+        "Worked as an Apple partner to have a share extension ready on day one",
+        "Ensured a consistent experience across different-sized devices",
+        "Prototyped widely-demanded, headline user-facing features",
+        "Redesigned the core Tumblr dashboard experience",
+        "Collaborated closely with the Creative, Security, and API teams to ensure a top-notch user experience"
       ]
     },
     {
@@ -36,8 +51,7 @@
       "end": "March 2014",
       "accomplishments": [
         "Took over codebase from foreign contractor",
-        "Added ads and in-app-purchases to increase profit from mobile users",
-        "Customized mobile experience, increasing customer satisfaction",
+        "Customized mobile experience, increasing customer satisfaction and revenues per user",
         "Released two new major versions with over 75,000 monthly active users"
       ]
     },
@@ -87,12 +101,8 @@
       "name": "RKValueTransformers"
     },
     {
-      "github_url": "https://github.com/youknowone/UI7Kit",
-      "name": "UI7Kit"
-    },
-    {
-      "github_url": "https://github.com/brandonhamilton/inputtoolbar",
-      "name": "inputtoolbar"
+      "github_url": "https://github.com/orta/cocoapods-keys",
+      "name": "cocoapods-keys"
     },
     {
       "github_url": "https://github.com/pandamonia/BlocksKit",
@@ -100,8 +110,6 @@
     }
   ],
   "hobbies": [
-    "Musician (trumpet, bass, and guitar). Flugelhorn player for the University of Chicago Brass Choir. Performed on trumpet with Scarsdale HS Jazz Band in Lincoln Center 2010, 2012 and with Scarsdale HS Wind Ensemble at Carnegie Hall, March 2012",
-    "Master Electrician and Lighting Designer with University of Chicago’s University Theater, Scarsdale High School Stage Crew. Teched multiple shows, operating light board, assisting in lighting design, and directing spot operators",
     "Avid reader with wide-range of interests, including military history, statistics and baseball",
     "Open-source software contributions, found at [github.com/segiddins](https://github.com/segiddins)",
     "Core team member on RestKit and CocoaPods",
