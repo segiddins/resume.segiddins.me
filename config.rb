@@ -1,6 +1,9 @@
 set :encoding, 'utf-8'
 set :relative_links, true
 
+require 'slim'
+Slim::Engine.disable_option_validator!
+
 # Support for browsing from the build folder.
 set :strip_index_file,  false
 
@@ -44,9 +47,13 @@ set :images_dir, 'images'
 after_configuration do
   sprockets.append_path "../shared/images"
   sprockets.append_path "../shared/scripts"
-  # sprockets.append_path "../shared/fonts"
+  sprockets.append_path "../shared/fonts"
   sprockets.append_path "../shared/partials"
   sprockets.append_path "../shared/stylesheets"
+
+  Dir['shared/fonts/*'].each do |font|
+    sprockets.import_asset(File.basename font)
+  end
 end
 
 # Build-specific configuration
