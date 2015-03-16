@@ -1,9 +1,3 @@
-GIT
-  remote: git://github.com/vmg/redcarpet.git
-  revision: bed037483b9f2e69b9db53223b557c876006b82c
-  specs:
-    redcarpet (3.1.1)
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -28,7 +22,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.3)
+    eventmachine (1.0.7)
     execjs (2.2.0)
     ffi (1.9.3)
     fssm (0.2.10)
@@ -109,6 +103,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.3)
       ffi (>= 0.5.0)
+    redcarpet (3.2.2)
     rouge (1.5.1)
     sass (3.2.19)
     slim (1.3.9)
@@ -150,7 +145,7 @@ DEPENDENCIES
   middleman-sprockets
   pygments.rb
   rake
-  redcarpet!
+  redcarpet
   sass
   slim (< 2.0)
   yard (~> 0.8.6.2)
