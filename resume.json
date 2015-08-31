@@ -11,8 +11,23 @@
     "website": "segiddins.me",
     "email": "segiddins@segiddins.me"
   },
-  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (triple major in Computer Science, Economics, and Mathematics). National Merit Scholar. Developer with significant Ruby/Rails and Objective-C/Cocoa/Cocoa Touch experience. Expert in creating world-class experiences for users and developers. Code used on several million devices daily, and by hundreds of thousands of developers.",
+  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (triple major in Computer Science, Economics, and Mathematics). National Merit Scholar. Developer with expert Ruby and Objective-C, Cocoa, and Swift experience. Expert in creating world-class experiences for users and developers. Speaker at meetups and conferences around the country. Code used on several hundred million devices daily, and by millions of developers.",
   "work": [
+    {
+      "name": "Realm",
+      "website": "realm.io",
+      "location": "San Fransisco, CA",
+      "position": "Senior Cocoa Engineer",
+      "start": "December 2014",
+      "end": "September 2015",
+      "accomplishments": [
+        "Released a Swift binding for the Realm database",
+        "Supported users with usage issues, bugs, and feature requests",
+        "Implemented support for nullable / optional values at the binding level",
+        "Contributed bug fixes and minor enhancements to C++ Core",
+        "Spoke about Realm at conferences, meetups, and podcasts around North America"
+      ]
+    },
     {
       "name": "CocoaPods (Stripe's Open Source Retreat)",
       "website": "cocoapods.org",
@@ -23,7 +38,7 @@
       "accomplishments": [
         "Wrote a reference-implementation dependency resolution algorithm",
         "Constructed a reference test suite",
-        "Integrated work into CocoaPods for use by hundreds of thousands of developers"
+        "Integrated work into CocoaPods, Bundler & RubyGems for use by hundreds of thousands of developers"
       ]
     },
     {
@@ -93,6 +108,18 @@
       "name": "CocoaPods"
     },
     {
+      "github_url": "https://github.com/bundler/bundler",
+      "name": "bundler"
+    },
+    {
+      "github_url": "https://github.com/rubygems/rubygems",
+      "name": "rubygems"
+    },
+    {
+      "github_url": "https://github.com/Realm/jazzy",
+      "name": "jazzy"
+    },
+    {
       "github_url": "https://github.com/RestKit/RestKit",
       "name": "RestKit"
     },
@@ -103,19 +130,16 @@
     {
       "github_url": "https://github.com/orta/cocoapods-keys",
       "name": "cocoapods-keys"
-    },
-    {
-      "github_url": "https://github.com/pandamonia/BlocksKit",
-      "name": "BlocksKit"
     }
   ],
   "hobbies": [
     "Avid reader with wide-range of interests, including military history, statistics and baseball",
     "Open-source software contributions, found at [github.com/segiddins](https://github.com/segiddins)",
-    "Core team member on RestKit and CocoaPods",
+    "Core team member on RestKit, CocoaPods & Bundler.",
     "Well-traveled in U.S. and abroad (Europe, North America, Middle East)"
   ],
   "languages": [
+    "Swift",
     "Objective-C",
     "Ruby",
     "C",
