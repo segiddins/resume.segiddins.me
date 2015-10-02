@@ -11,7 +11,7 @@
     "website": "segiddins.me",
     "email": "segiddins@segiddins.me"
   },
-  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (double major in Economics and Mathematics). National Merit Scholar. Developer with expert Ruby and Objective-C, Cocoa, and Swift experience. Expert in creating world-class experiences for users and developers. Speaker at meetups and conferences around the country. Code used on several hundred million devices daily, and by millions of developers. Leader of global development teams of open-source projects.",
+  "profile": "University of Chicago, Class of 2018 (double major in Economics and Mathematics). National Merit Scholar. Developer with expert Ruby and Objective-C, Cocoa, and Swift experience. Expert in creating world-class experiences for users and developers. Speaker at meetups and conferences around the country. Code used on several hundred million devices daily, and by millions of developers. Leader of global development teams of open-source projects.",
   "work": [
     {
       "name": "Realm",
@@ -24,8 +24,7 @@
         "Released a Swift binding for the Realm database",
         "Supported users with usage issues, bugs, and feature requests",
         "Implemented support for nullable / optional values at the binding level",
-        "Contributed bug fixes and minor enhancements to C++ Core",
-        "Spoke about Realm at conferences, meetups, and podcasts around North America"
+        "Contributed bug fixes and minor enhancements to C++ Core"
       ]
     },
     {
@@ -50,7 +49,6 @@
       "end": "September 2014",
       "accomplishments": [
         "Rewrote critical application components to enable bug fixes and crucial feature development",
-        "Worked as an Apple partner to have a share extension ready on day one",
         "Ensured a consistent experience across different-sized devices",
         "Prototyped widely-demanded, headline user-facing features",
         "Redesigned the core Tumblr dashboard experience",
@@ -92,14 +90,6 @@
       "start": 2013,
       "end": "2018 (Expected)",
       "aside": "Recipient of the 2014 Jane Morton and Henry C. Murphy Award for student leadership\nDean's List 2014"
-    },
-    {
-      "name": "Scarsdale High School",
-      "location": "Scarsdale, NY",
-      "degree": "Honors Student",
-      "start": 2009,
-      "end": 2013,
-      "aside": null
     }
   ],
   "open_source": [
@@ -126,10 +116,6 @@
     {
       "github_url": "https://github.com/RestKit/RKValueTransformers",
       "name": "RKValueTransformers"
-    },
-    {
-      "github_url": "https://github.com/orta/cocoapods-keys",
-      "name": "cocoapods-keys"
     }
   ],
   "hobbies": [
