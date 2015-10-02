@@ -2,16 +2,16 @@
   "contact": {
     "name": "Samuel E. Giddins",
     "address": {
-      "street": "1190 Mission Street #1717",
-      "city": "San Fransisco",
-      "state": "California",
-      "zip": "94103"
+      "street": "5454 South Shore Drive Apt. 408",
+      "city": "Chicago",
+      "state": "Illinois",
+      "zip": "60615"
     },
     "phone": "(917) 887 - 3993",
     "website": "segiddins.me",
     "email": "segiddins@segiddins.me"
   },
-  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (triple major in Computer Science, Economics, and Mathematics). National Merit Scholar. Developer with expert Ruby and Objective-C, Cocoa, and Swift experience. Expert in creating world-class experiences for users and developers. Speaker at meetups and conferences around the country. Code used on several hundred million devices daily, and by millions of developers.",
+  "profile": "University of Chicago, Class of 2018 (LOA 2014-2015) (double major in Economics and Mathematics). National Merit Scholar. Developer with expert Ruby and Objective-C, Cocoa, and Swift experience. Expert in creating world-class experiences for users and developers. Speaker at meetups and conferences around the country. Code used on several hundred million devices daily, and by millions of developers. Leader of global development teams of open-source projects.",
   "work": [
     {
       "name": "Realm",
@@ -88,7 +88,7 @@
     {
       "name": "University of Chicago",
       "location": "Chicago, IL",
-      "degree": "The College, B.S., Computer Science, B.S., Mathematics, B.A., Economics",
+      "degree": "The College, B.S., Mathematics, B.A., Economics",
       "start": 2013,
       "end": "2018 (Expected)",
       "aside": "Recipient of the 2014 Jane Morton and Henry C. Murphy Award for student leadership\nDean's List 2014"
@@ -133,19 +133,16 @@
     }
   ],
   "hobbies": [
-    "Avid reader with wide-range of interests, including military history, statistics and baseball",
+    "Avid reader with wide-range of interests, including history, statistics, and social theory",
     "Open-source software contributions, found at [github.com/segiddins](https://github.com/segiddins)",
-    "Core team member on RestKit, CocoaPods & Bundler.",
-    "Well-traveled in U.S. and abroad (Europe, North America, Middle East)"
+    "Core team member on RestKit, CocoaPods & Bundler."
   ],
   "languages": [
     "Swift",
     "Objective-C",
     "Ruby",
     "C",
-    "JS",
-    "Python",
-    "Swift",
-    "LaTeX"
+    "C++",
+    "Swift"
   ]
 }
