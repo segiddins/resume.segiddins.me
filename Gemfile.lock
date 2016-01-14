@@ -22,7 +22,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.0.9)
     execjs (2.2.0)
     ffi (1.9.3)
     fssm (0.2.10)
@@ -35,7 +35,7 @@ GEM
       uber (~> 0.0.4)
     http_parser.rb (0.6.0)
     i18n (0.6.9)
-    json (1.8.1)
+    json (1.8.3)
     kramdown (1.4.0)
     listen (1.3.1)
       rb-fsevent (>= 0.9.3)
@@ -149,3 +149,6 @@ DEPENDENCIES
   sass
   slim (< 2.0)
   yard (~> 0.8.6.2)
+
+BUNDLED WITH
+   1.11.2
