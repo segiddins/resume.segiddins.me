@@ -7,11 +7,12 @@ rvm:
 install:
 - git config --global user.email "github_bot@segiddins.me"
 - git config --global user.name "GiddinsBot"
-- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-latex-base
+- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+  texlive-fonts-recommended texlive-latex-base
 - rake bootstrap
 script:
 - git remote set-url origin "https://${GH_TOKEN}@github.com/segiddins/resume.segiddins.me.git"
 - ALLOW_DIRTY=true bundle exec rake deploy
 env:
   global:
-    secure: NHmJOiKgcPkZw/Y3V6p6pqA/2sb02GGLbI10ZgYWaaNs9MHEeYlNoN1KlJqtDgQGsiE2IHGMMTAXhDYzXYyRuc9LHgYsi9Rp4kr0qamLxQAmUZmjvcN/i7Va/DZkE0h9ISGzHTD1vf2/wXroQ0ZdUPtBaurGYH+h0YJm4MwVbGk=
+  - secure: hpX5dvZiBuH2/syKLYqXzmJEUPMca0iSu7JEG5SXtIBHw+z3tZfbD4wxj6lkq2Skxp30AevGRMhzKQhPwq9+ACunjhsjwjQ0hNO1PTDRWb1lx4GDILEtpXoTg3mS9RfZUV6FEMmzVYEtkoVz4iVgonRUiS+ux3Jc33m9+y0rOTM=
