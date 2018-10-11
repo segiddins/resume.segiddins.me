@@ -24,7 +24,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.9)
     execjs (2.2.0)
-    ffi (1.9.3)
+    ffi (1.9.25)
     fssm (0.2.10)
     github-markup (1.2.1)
       posix-spawn (~> 0.3.8)
