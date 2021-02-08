@@ -14,7 +14,7 @@ gem 'redcarpet'
 gem 'rake'
 gem 'sass'
 
-gem 'slim', '< 2.0'
+gem 'slim', '< 4.0'
 gem 'yard', "~> 0.8.6.2"
 
 gem 'activesupport'
