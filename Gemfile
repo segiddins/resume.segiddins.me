@@ -8,7 +8,7 @@ gem 'middleman-rouge'
 gem "middleman-sprockets"
 gem 'middleman-gh-pages'
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload", "~> 3.4.6"
 
 gem 'redcarpet'
 gem 'rake'
